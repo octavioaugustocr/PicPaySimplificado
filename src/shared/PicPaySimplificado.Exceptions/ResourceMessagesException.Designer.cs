@@ -61,6 +61,24 @@ namespace PicPaySimplificado.Exceptions {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a The CNPJ cannot be empty!.
+        /// </summary>
+        public static string CNPJ_EMPTY {
+            get {
+                return ResourceManager.GetString("CNPJ_EMPTY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a The CNPJ is invalid!.
+        /// </summary>
+        public static string CNPJ_INVALID {
+            get {
+                return ResourceManager.GetString("CNPJ_INVALID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a The CPF cannot be empty!.
         /// </summary>
         public static string CPF_EMPTY {
